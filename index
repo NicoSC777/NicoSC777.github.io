@@ -21,7 +21,7 @@
     <div class="user">
         <img src="images/CV.jpg" alt="">
         <h3 class="name">Nicolás Santos</h3>
-        <p class="post">Estudiante de Ingeniería Mecánica</p>
+        <p class="post">Ingeniero Mecánico | Analista de Datos</p>
     </div>
 
     <nav class="navbar">
