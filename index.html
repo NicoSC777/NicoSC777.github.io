@@ -222,8 +222,8 @@
     </div>
 
     <div class="experiencia">
-        <h3>Monitor de Dibujo Técnico y Dibujo Mecánico (CAD)</h3>
-        <p>Como monitor de Dibujo Técnico y Dibujo Mecánico (CAD), orienté y apoyé a estudiantes en el dominio de conceptos clave, fomentando un ambiente de aprendizaje colaborativo y dinámico. Proporcioné explicaciones claras, resolví dudas y facilité recursos prácticos para fortalecer la comprensión del contenido.</p>
+        <h3>Ingeniero de Mantenimiento en Solido Ingeniería</h3>
+        <p>Como Ingeniero de Mantenimiento en Solido, optimicé las estrategias de mantenimiento preventivo de equipos industriales, logré incrementar la vida útil de las maquinarias y mejorar su eficiencia operativa mediante diagnóstico de fallas y planificación de intervenciones oportunas.</p>
     </div>
 
 </div>
@@ -236,55 +236,62 @@
 
 <section class="contact" id="contact">
 
-<h1 class="heading"> <span>¡Pongámonos en</span> contacto! </h1>
+<h1 class="heading"> Contacta <span> conmigo </span> </h1>
 
-<div class="row">
-
-    <div class="content">
-
-        <h3 class="title">Información de contacto</h3>
-
-        <div class="info">
-            <h3> <i class="fas fa-envelope"></i> nicolasfernando2009@live.com </h3>
-            <h3> <a href="https://wa.me/+573147362107" target="_blank"><i class="fab fa-whatsapp"></i> +57 314-736-2107 </a></h3>
-            <h3> <a href="https://www.linkedin.com/in/nicolas-santosc/" target="_blank"><i class="fab fa-linkedin"></i> Nicolás Santos </a></h3>
-        </div>
-
-    </div>
-
-    <form action="https://formsubmit.co/83f07e79957bab5358b41e9e0a269827" method="POST">
-
-        <input type="text" name="name" placeholder="Nombre" class="box" >
-        <input type="email" name="email" placeholder="Correo electrónico" class="box" >
-        <input type="text" name="subject" placeholder="Asunto" class="box" >
-        <textarea name="comments" id="" cols="30" rows="10" class="box message" placeholder="Mensaje"></textarea>
-        <button type="submit" class="btn"> Enviar <i class="fas fa-paper-plane"></i> </button>
-        <input type="hidden" name="_next" value="http://nicolassantos.com.co">
-        <input type="hidden" name="_captcha" value="false">
+<div class="form-container">
+    <form action="">
+        <input type="text" placeholder="Nombre" class="box">
+        <input type="email" placeholder="Correo electrónico" class="box">
+        <textarea placeholder="Mensaje" class="box" rows="10"></textarea>
+        <button type="submit" class="btn">Enviar mensaje</button>
     </form>
-
 </div>
 
 </section>
 
 <!-- contact section ends -->
 
+<!-- footer section starts  -->
 
-<!-- scroll top button  -->
+<footer>
 
-<a href="#home" class="top">
-    <img src="images/scroll-top-img.png" alt="">
-</a>
+    <div class="social">
+        <a href="https://www.linkedin.com/in/nicolasfsantos/" target="_blank" class="fab fa-linkedin"></a>
+        <a href="https://github.com/nicolasfsantos" target="_blank" class="fab fa-github"></a>
+    </div>
 
+    <p class="credit"> Hecho por <span>Nicolás Santos</span> | Todos los derechos reservados </p>
 
+</footer>
 
+<!-- footer section ends -->
 
-<!-- jquery cdn link  -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<!-- scripts -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="js/main.js"></script>
 
-<!-- custom js file link  -->
-<script src="js/script.js"></script>
+<!-- Script para el cambio de modo claro/oscuro -->
+<script>
+    const toggleButton = document.getElementById("toggleButton");
+    const body = document.body;
 
+    // Comprobamos si hay preferencia guardada para el modo
+    if (localStorage.getItem("mode") === "dark") {
+        body.classList.add("dark-mode");
+    }
+
+    // Función para cambiar entre modo claro y oscuro
+    function toggleMode() {
+        body.classList.toggle("dark-mode");
+        if (body.classList.contains("dark-mode")) {
+            localStorage.setItem("mode", "dark");
+        } else {
+            localStorage.setItem("mode", "light");
+        }
+    }
+
+    toggleButton.addEventListener("click", toggleMode);
+</script>
 
 </body>
 </html>
