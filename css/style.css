@@ -461,7 +461,37 @@ header .navbar ul li a:hover{
 }
 
 
+.portfolio-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 2rem 0;
+}
 
+.project-box {
+    background-color: #f0f0f0;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.project-title {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.project-image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.project-description {
+    font-size: 1rem;
+    color: #333;
+}
 
 
 
