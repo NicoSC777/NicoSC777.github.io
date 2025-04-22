@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicolás S. - Data Analyst</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="icon" href="images/icono.png" type="image/x-icon">
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+
+    <div class="user">
+        <img src="images/CV.jpg" alt="">
+        <h3 class="name">Nicolás Santos</h3>
+        <p class="post">Ingeniero Mecánico | Analista de Datos</p>
+    </div>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#portfolio">Experiencia Laboral</a></li>
+            <li><a href="#about">Proyectos</a></li>
+            <li><a href="#education">Certificaciones</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<!-- header section ends -->
+
+<div id="menu" class="fas fa-bars"></div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <h3>¡Hola! 👋🏻</h3>
+    <h1>Soy <span>Nicolás Santos</span></h1>
+    <p> Ingeniero Mecánico con más de 1 año de experiencia en el mundo de los datos, diseñando e implementando tableros de control que ayudan a las empresas a analizar sus datos para tomar decisiones estratégicas. 😎📈 
+        <br><br>
+        Mi experiencia laboral me ha permitido dominar herramientas útiles en el campo como SQL, Power BI, Power Automate, Python, Excel y sistemas ERP y CRM. 🌐
+        <br><br>
+        ¡Busco aplicar esta experiencia y mis conocimientos en ingeniería para aportar en el desarrollo de soluciones innovadoras y eficientes en proyectos relevantes para el campo profesional! 🏆
+    </p>
+
+    <div class="home-buttons">
+        <a href="https://www.linkedin.com/in/nicolas-santosc/" target="_blank"><button class="btn"><i class="fab fa-linkedin"></i> LinkedIn</button></a>
+        <a href="images/Hoja de Vida NFSC CV.pdf" target="_blank"><button class="btn">Descargar CV <i class="fas fa-download"></i></button></a>
+    </div>
+</section>
+
+<!-- home section ends -->
+
+
+<!-- experiencia section starts -->
+
+<section class="portfolio" id="portfolio">
+
+    <h1 class="heading"> Experiencia <span>Laboral</span> </h1>
+  
+    <div class="experience-container">
+  
+      <!-- Experiencia 1 -->
+      <div class="experience-card">
+        <img src="images/gerritsen.png" alt="Metnum" class="experience-img">
+        <div class="experience-content">
+          <h3>Data Analyst</h3>
+          <p class="company">Gerritsen Group</p>
+          <p class="date">Oct 2024 - Actualidad</p>
+          <p class="description">
+            Transformé datos complejos en visuales claros y accionables con Power BI, conectando fuentes como Exact y HubSpot para dar vida a los KPIs que realmente importan. Además, desde el backend, utilicé MySQL para extraer y moldear información logística que impulsó decisiones con impacto real en el negocio.        </div>
+      </div>
+  
+      <!-- Experiencia 2 -->
+      <div class="experience-card">
+        <img src="images/prp logo.png" alt="Lifeline Wireless" class="experience-img">
+        <div class="experience-content">
+          <h3>Business Analyst</h3>
+          <p class="company">PRP Solutions</p>
+          <p class="date">Jul 2024 - Actualidad</p>
+          <p class="description">
+            Impulsé la transformación digital mediante reportes en Power BI conectados a la solución empresarial, liderando proyectos para optimizar la gestión del talento humano. Colaboré con equipos de IT en la resolución de incidencias críticas y desarrollé soluciones en Power Apps, Power Automate y SharePoint que automatizaron procesos internos, mejorando la eficiencia operativa.        </div>
+      </div>
+  
+      <!-- Experiencia 3 -->
+      <div class="experience-card">
+        <img src="images/kimberly.jpg" alt="UPB CAD" class="experience-img">
+        <div class="experience-content">
+          <h3>Practicante de Mantenimiento</h3>
+          <p class="company">Kimberly-Clark Professional</p>
+          <p class="date">Ene 2024 - Jul 2024</p>
+          <p class="description">
+            Implementé dashboards en Power BI para el área de mantenimiento, mejorando la visibilidad de KPIs y facilitando decisiones basadas en datos. Lideré un ciclo de mejora continua que optimizó la gestión del mantenimieno y elevó el registro de averías a su punto más alto en 2 años, colaboré en la estandarización de procesos clave y organicé un listado de materiales con su criticidad en SAP PM, mejorando la gestión de recursos.          </p>
+        </div>
+      </div>
+  
+    </div>
+  
+  </section>
+  
+  <!-- experiencia section ends -->
+  
+
+    <!-- portafolio section starts -->
+
+    <section class="about" id="about">
+
+        <h1 class="heading"> Proyectos <span>Destacados</span> </h1>
+    
+        <div class="portfolio-container">
+    
+            <div class="project-box">
+                <h2 class="project-title">Informe General - Recurso humano, propuestas comerciales, logística y más</h2>
+                <img src="images/gerritsen dash.png" alt="Gerritsen DASH" class="project-image" onclick="openModal(this)">
+                <p class="project-description">
+                    Este dashboard incluye áreas críticas para la empresa, como la gestión de recursos humanos, el seguimiento de propuestas comerciales y la logística. Se alimenta de información proveída por la API de HubSpot, base de datos corporativa, sistema Honeycomb, lo cual se limpia mediante Power Query. 
+                </p>
+                <p class="project-description">
+                    Fue diseñado para proporcionar una visión integral y facilitar la toma de decisiones estratégicas basadas en datos confiables y actualizados.         
+                </p>
+                <div class="project-tools">
+                    <img src="images/PowerBI_scalable.svg" alt="Power BI">
+                    <img src="images/icons8-sql-48.png" alt="SQL">
+                    <img src="images/icons8-microsoft-excel-2019.svg" alt="Excel">
+                    <img src="images/icons8-hubspot-48.png" alt="HubSpot">
+                </div>
+            </div>
+    
+            <div class="project-box">
+                <h2 class="project-title">Tablero Recurso Humano - Asistencia, tareas, novedades y más </h2>
+                <img src="images/prp dash.png" alt="PRP DASH" class="project-image" onclick="openModal(this)">
+                <p class="project-description">
+                    Este tablero de control fue construido usando el sistema Honeycomb, automatizando el cargue de reportes mediante Power Automate. También, se limpiaron y modelaron los datos a través de Power Query.
+                </p>
+                <p class="project-description">
+                    Permite al usuario analizar el estado de la operación, revisando cumplimientos de labores asignadas, asistencia, recargos de nómina, entre otros.
+                </p>
+                <div class="project-tools">
+                    <img src="images/PowerBI_scalable.svg" alt="power BI">
+                    <img src="images/icons8-microsoft-excel-2019.svg" alt="Excel">
+                    <img src="images/PowerAutomate_scalable.svg" alt="Power Automate">
+                </div>
+            </div>
+    
+            <div class="project-box">
+                <h2 class="project-title">Tablero Análisis de Mantenimiento - Averías, reportes y costos</h2>
+                <img src="images/kcp dash.png" alt="CV" class="project-image" onclick="openModal(this)">
+                <p class="project-description">
+                    Este reporte fue construido utilizando SAP PM y SQL para recolectar y cargar los datos. Posteriormente, fue limpiado y modelado en Power Query, y finalmente visualizado en Power BI. 
+                </p>
+                <p class="project-description">
+                    El tablero permite analizar métricas clave como tiempos de inactividad, costos de mantenimiento y frecuencia de averías, proporcionando información valiosa para la toma de decisiones estratégicas.
+                </p>
+                <div class="project-tools">
+                    <img src="images/PowerBI_scalable.svg" alt="Herramienta 1">
+                    <img src="images/icons8-sql-48.png" alt="SQL">
+                    <img src="images/icons8-microsoft-excel-2019.svg" alt="Excel">
+                    <img src="images/icons8-sap.svg" alt="SAP PM">
+                </div>
+            </div>
+    
+        </div>
+    
+    </section>
+    
+    
+    <!-- Modal para ampliación de imágenes -->
+    <div id="imgModal" class="modal" onclick="closeModal()">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImg">
+    </div>
+    
+
+<!-- portafolio section ends -->
+
+<!-- education section starts  -->
+
+<section class="education" id="education">
+
+<h1 class="heading"> Certificaciones <span>Obtenidas</span> </h1>
+
+<div class="box-container">
+
+    <div class="box">
+        <a href="images/IBM Data Science.pdf" target="_blank">
+            <i class="fas fa-graduation-cap"></i>
+            <span>Abril 2025 - En Progreso</span>
+            <h3>Ciencia de Datos</h3>
+            <p>| IBM</p>
+        </a>
+        <div class="badges">
+            <span class="badge">Python</span>
+            <span class="badge">Jupyter Notebook</span>
+            <span class="badge">SQL</span>
+            <span class="badge">Visualización de Datos</span>
+            <span class="badge">Manipulación de Datos</span>
+            <span class="badge">Estadística</span>
+        </div>
+    </div>
+
+    <div class="box">
+        <a href="images/Platzi Análisis Exploratorio de datos.pdf" target="_blank">
+            <i class="fas fa-graduation-cap"></i>
+            <span>Abril 2025</span>
+            <h3>Análisis Exploratorio de Datos</h3>
+            <p>| Platzi</p>
+        </a>
+        <div class="badges">
+            <span class="badge">Python</span>
+            <span class="badge">Análisis Exploratorio de Datos</span>
+            <span class="badge">Análisis Univariable</span>
+            <span class="badge">Análisis Bivariable</span>
+            <span class="badge">Estadística</span>
+        </div>
+    </div>
+
+    <div class="box">
+        <a href="images/Certificado Curso PowerBI - Análisis de Datos y Business Intelligence.pdf" target="_blank">
+            <i class="fas fa-graduation-cap"></i>
+            <span>Noviembre 2024</span>
+            <h3>Power BI - Análisis de Datos y Business Intelligence</h3>
+            <p>| Udemy</p>
+        </a>
+        <div class="badges">
+            <span class="badge">Power BI</span>
+            <span class="badge">Power Query</span>
+            <span class="badge">Modelado de Datos</span>
+            <span class="badge">Visualización de Datos</span>
+        </div>
+    </div>
+
+<div class="box">
+    <a href="images/Google Data Analysis.pdf" target="_blank">
+        <i class="fas fa-graduation-cap"></i>
+        <span>Agosto 2023</span>
+        <h3>Certificado Profesional de Análisis de Datos</h3>
+        <p>| Google</p>
+    </a>
+    <div class="badges">
+        <span class="badge">R</span>
+        <span class="badge">SQL</span>
+        <span class="badge">Análisis de Datos</span>
+        <span class="badge">Excel</span>
+        <span class="badge">Visualización de Datos</span>
+    </div>
+</div>
+
+<div class="box">
+    <a href="images/Certificado de Fundamentos de la gestión de proyectos Comunicación.pdf" target="_blank">
+        <i class="fas fa-graduation-cap"></i>
+        <span>Febrero 2023</span>
+        <h3>Fundamentos de la gestión de proyectos: comunicación</h3>
+        <p>| LinkedIn Learning</p>
+    </a>
+    <div class="badges">
+        <span class="badge">Comunicación</span>
+        <span class="badge">Escucha activa</span>
+        <span class="badge">Liderazgo</span>
+        <span class="badge">Gestión de Personas</span>
+    </div>
+</div>
+
+<div class="box">
+    <a href="images/Certificado de Microsoft Project 2016 Avanzado.pdf" target="_blank">
+        <i class="fas fa-graduation-cap"></i>
+        <span>Febrero 2023</span>
+        <h3>Microsoft Project Avanzado</h3>
+        <p>| LinkedIn Learning</p>
+    </a>
+    <div class="badges">
+        <span class="badge">Project</span>
+        <span class="badge">Gestión de Proyectos</span>
+        <span class="badge">Planificación de Proyectos</span>
+    </div>
+</div>
+
+<div class="box">
+    <a href="images/Certificado de Técnicas avanzadas de resolución de conflictos.pdf" target="_blank">
+        <i class="fas fa-graduation-cap"></i>
+        <span>Febrero 2023</span>
+        <h3>Técnicas avanzadas de resolución de conflictos</h3>
+        <p>| LinkedIn Learning</p>
+    </a>
+    <div class="badges">
+        <span class="badge">Inteligencia Emocional</span>
+        <span class="badge">Comunicación Interpersonal</span>
+        <span class="badge">Liderazgo</span>
+    </div>
+</div>
+
+<div class="box">
+    <a href="images/Certificado de Cómo liderar equipos de alto potencial.pdf" target="_blank">
+        <i class="fas fa-graduation-cap"></i>
+        <span>Febrero 2023</span>
+        <h3>Cómo Liderar Equipos de Alto Potencial</h3>
+        <p>| LinkedIn Learning</p>
+    </a>
+    <div class="badges">
+        <span class="badge">Inteligencia Emocional</span>
+        <span class="badge">Comunicación Interpersonal</span>
+        <span class="badge">Liderazgo</span>
+    </div>
+</div>
+
+<div class="box">
+    <a href="images/Manejo de herramientas Microsoft Office Excel.pdf" target="_blank">
+        <i class="fas fa-graduation-cap"></i>
+        <span>Agosto 2021</span>
+        <h3>Manejo de herramientas Microsoft Office: Excel</h3>
+        <p>| SENA</p>
+    </a>
+    <div class="badges">
+        <span class="badge">Excel</span>
+    </div>
+</div>
+
+ 
+
+</div>
+
+</section>
+
+<!-- education section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+<h1 class="heading"> <span>¡Pongámonos en</span> contacto! </h1>
+
+<div class="row">
+
+    <div class="content">
+
+        <h3 class="title">Información de contacto</h3>
+
+        <div class="info">
+            <h3> <i class="fas fa-envelope"></i> <a href="mailto:nicolasfernando2009@live.com">nicolasfernando2009@live.com</a> </h3> 
+            <h3> <a href="https://wa.me/+573147362107" target="_blank"><i class="fab fa-whatsapp"></i> +57 314-736-2107 </a></h3>
+            <h3> <a href="https://www.linkedin.com/in/nicolas-santosc/" target="_blank"><i class="fab fa-linkedin"></i> Nicolás Santos </a></h3>
+        </div>
+
+    </div>
+
+    <form action="https://formsubmit.co/83f07e79957bab5358b41e9e0a269827" method="POST">
+
+        <input type="text" name="name" placeholder="Nombre" class="box" >
+        <input type="email" name="email" placeholder="Correo electrónico" class="box" >
+        <input type="text" name="subject" placeholder="Asunto" class="box" >
+        <textarea name="comments" id="" cols="30" rows="10" class="box message" placeholder="Mensaje"></textarea>
+        <button type="submit" class="btn"> Enviar <i class="fas fa-paper-plane"></i> </button>
+        <input type="hidden" name="_next" value="https://nicolasfsc.github.io/#contact">
+        <input type="hidden" name="_captcha" value="false">
+    </form>
+
+</div>
+
+</section>
+
+<!-- contact section ends -->
+
+
+<!-- scroll top button  -->
+
+<a href="#home" class="top">
+    <img src="images/scroll-top-img.png" alt="">
+</a>
+
+
+
+
+<!-- jquery cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+<script>
+    function openModal(img) {
+      var modal = document.getElementById("imgModal");
+      var modalImg = document.getElementById("modalImg");
+      modal.style.display = "block";
+      modalImg.src = img.src;
+    }
+  
+    function closeModal() {
+      document.getElementById("imgModal").style.display = "none";
+    }
+  </script>
+  
+
+</body>
+</html>
